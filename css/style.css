@@ -1,0 +1,45 @@
+#container
+{
+    /*width: 100%;*/
+    margin: 50px auto;
+    /*height: 100%;
+    margin: auto;*/
+}
+
+#btc_amount, #usd_amount
+{
+    display: inline;
+    text-align: center;
+    margin : 0 auto;
+    width: 200px;
+    margin-top: 5px;
+}
+
+#calculator
+{
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 910px;
+  text-align: center;
+}
+
+#results_container
+{
+    text-align: left;
+    /*width: 940px;*/
+}
+
+#btc_value, #usd_value
+{
+    color: green;
+    font-weight: bold;
+}
+
+#submit_button_to_usd, #submit_button_to_btc, #submit_button_to_btc_sell, #submit_button_to_usd_sell
+{
+    display:inline;
+    width: 150px;
+
+    margin-top: 5px;
+}
